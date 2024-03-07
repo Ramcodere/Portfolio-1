@@ -9,5 +9,3 @@ function sendMail (){
 
     emailjs.send("service_h4ks1j7", "template_6k9csq5",parms).then (alert("Email Sent!!"))
 }
-
-let url = "mongodb+srv://Ram123:Ram123@cluster0.tzbfqo2.mongodb.net/Ram321retryWrites=true&w=majority"
